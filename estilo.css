@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.caixa{
+    display: flex;
+    width: 50vw;
+    height: 80vh;
+    border: 1px solid black;
+    border-radius: 4px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-caixa{
+    width: 12vw;
+    height: 20vh;
+    border: 1px solid black;
+    margin: 0 20px 0 20px;
+}
